@@ -103,12 +103,13 @@
     font-weight: bold;
     color: #FFFFFF;
 }
-.body-2-img img{
+.body-2-img{
     width: 318px;
     /* padding: 68px 87px 39px 138px; */
     padding-top: 90px;
-    display: flex;
+    /* display: flex; */
 }
+
 .time{
         width: 1320px;
         height: 480px;
@@ -153,7 +154,7 @@
                 margin-bottom: 120px;
                 border-radius: 16px;
                 display: flex;
-                border: 1px solid black;
+                /* border: 1px solid black; */
                 /* justify-content: space-evenly; */
                 /* align-items:center; */
 }
@@ -183,10 +184,14 @@
     width: 350px;
 }
 .bd-coming-img{
-    margin: auto 70px auto 0px;
+    margin: auto 100px auto 0px;
+    padding-right: 1000px;
+    border: 13px solid red;
+    border-radius: 100%;
+    padding: 35px;
 }
 .bd-coming-extra{
-        margin: auto 70px auto 0px;
+        margin: auto 70px auto 124px;
 }
 .year{
     color: red;
@@ -203,7 +208,84 @@
     margin-top: 43px;
     width: 130px;
     height: 130px;
+    
 }
 .happy img{
     background-size: 100%;
+}
+/* discount styles */
+.dis-container{
+            width: 1320px;
+                height: 986px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 120px;
+                border-radius: 16px;
+                border: 1px solid black;
+                /* text-align: center; */
+}
+.dis-text{
+    width: 1068px;
+    height: 260px;
+    text-align: center;
+    margin: auto;
+}
+.dis-text .dis-sub{
+    /* width: 263px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin:auto auto; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    
+}
+.dis-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    margin-top: 16px;
+    font-weight: bolder;
+}
+.dis-span{
+    color: red;
+}
+.dis-des{
+    width: 1038px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 28px;
+    opacity: .7 ;
+}
+.dis-image{
+    height: 662px;
+    display: flex;
+}
+.rec{
+    padding-bottom: 600px; 
+    height: 229px;
+
+}
+.rec .bor{
+    position: 100% ;
+
+}
+.gift {
+    /* width: 670px; */
+    height: 577px;
+    /* padding-top: 10px;  */
+    
+}
+.gift .dis-gift{
+position:100%;
+    padding-top: 10px; 
+    
+}
+.left-images{
+    display: flex;
+    flex-direction:column;
+    
+}
+.rigth-img{
+    margin-left: 0 auto;
 }
