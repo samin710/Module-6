@@ -314,3 +314,77 @@
     display: flex;
     justify-content:space-between;
 }
+/* subscribe */
+.subs-container{
+        width: 1320px;
+            height: 615px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 120px;
+            border-radius: 16px;
+            /* border: 1px solid black; */
+            text-align: center;
+            background-color: #f7eeee;
+
+}
+.mess{
+    padding-top: 78px;
+}
+.sub-tile{
+    font-size: 48px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+.sub-text .sub-des{
+    width: 895px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .7;
+    font-size: 20px;
+}
+.sub-field{
+    width: 648px;
+    height: 72px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 100px;
+}
+.sub-field .text{
+    background-color: white;
+    width: 648px;
+    height: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between  ;
+    border-radius:100px;
+}
+.sub-txt{
+    /* background-color: red; */
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+        opacity: .5;
+}
+.sub-field .button{
+        background-color: red;
+            width: 210px;
+            height: 72px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            border-bottom-right-radius: 100px;
+            border-top-right-radius: 100px;
+}
+.button .btn-sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 540;
+    color: white;
+    margin: 24px 56px;
+}
